@@ -1,0 +1,6 @@
+.vscode
+.github
+__pycache__
+venv
+*.sqlite3
+.pre-commit-config.yaml

@@ -2,7 +2,7 @@ from graphene_django.utils import GraphQLTestCase
 
 
 class GraphQLUserTest(GraphQLTestCase):
-    fixtures = ["user.json"]
+    fixtures = ["users.json"]
 
     def test_retrieve_by_id(self):
         expected = {
